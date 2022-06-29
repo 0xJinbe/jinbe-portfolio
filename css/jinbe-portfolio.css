@@ -304,6 +304,44 @@ blockquote {
   height: 100%;
 }
 
+.div-block {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 5;
+  padding-top: 21px;
+  padding-left: 32px;
+}
+
+.link-block {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-image: url('../images/twitter3.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.link-block-2 {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-image: url('../images/discord.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.link-block-3 {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-image: url('../images/medium.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 @media screen and (max-width: 991px) {
   body {
     font-size: 0.619375em;
